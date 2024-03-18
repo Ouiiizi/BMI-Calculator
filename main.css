@@ -1,4 +1,8 @@
-/* CSS for input fields */
+body {
+    margin-top: 10%;
+}
+
+
 input[type="number"],
 select {
     border: 1px solid #ccc; /* Add border to input fields */
@@ -8,13 +12,20 @@ select {
 
 /* CSS for container */
 #container {
-    width: 80%;
-    margin: 0 auto;
+    margin-top: 10px;
+    width: 400px; /* Set width of the container */
+    margin: 0 auto; /* Center the container horizontally */
+    padding: 50px; /* Add padding inside the container */
+    border: 1px solid #ccc; /* Add border to the container */
+    border-radius: 10px; /* Add border radius */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add shadow to the container */
 }
 
 /* CSS for form */
 form {
     margin-bottom: 20px;
+
+
 }
 
 /* CSS for button */
