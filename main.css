@@ -1,0 +1,47 @@
+/* CSS for input fields */
+input[type="number"],
+select {
+    border: 1px solid #ccc; /* Add border to input fields */
+    padding: 5px; /* Add padding */
+    border-radius: 5px; /* Add border radius */
+}
+
+/* CSS for container */
+#container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* CSS for form */
+form {
+    margin-bottom: 20px;
+}
+
+/* CSS for button */
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Additional CSS for height inputs */
+#heightIn {
+    width: 60px; /* Adjust width for inches input */
+}
+
+#heightUnit {
+    margin-left: 5px; /* Add margin to height unit select */
+}
+
+
+.gender {
+    padding:10px;
+    margin-bottom: 5%;
+}
