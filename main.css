@@ -10,6 +10,14 @@ select {
     border-radius: 5px; /* Add border radius */
 }
 
+select:hover {
+
+}
+
+input[type="number"]:hover {
+    background-color: #e6e6e6;
+}
+
 /* CSS for container */
 #container {
     margin-top: 10px;
@@ -31,7 +39,7 @@ form {
 /* CSS for button */
 button {
     padding: 10px 20px;
-    background-color: #007bff;
+    background-color: #959369;
     color: #fff;
     border: none;
     border-radius: 5px;
@@ -39,7 +47,7 @@ button {
 }
 
 button:hover {
-    background-color: #0056b3;
+    background-color: #706f50;
 }
 
 /* Additional CSS for height inputs */
