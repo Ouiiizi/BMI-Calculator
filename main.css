@@ -7,8 +7,6 @@
     font-family:"MuseoModerno-ExtraLight";
     src:url("MuseoModerno-VariableFont_wght.ttf");
 }
-.header { text-align: center}
-
 .img {
 
     height: 32px;
@@ -55,23 +53,26 @@
 .navbar a:hover {
     background-color: #555;
 }
+
+
 .museomoderno-ExtraLight {
-                   font-family: "MuseoModerno-ExtraLight", sans-serif;
-                   font-optical-sizing: auto;
-                   font-weight: 176;
-                   font-style: normal;
-               }
+    font-family: "MuseoModerno-ExtraLight", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 176;
+    font-style: normal;
+}
 
 .museomoderno-BoldxItalic {
-                   font-family: "MuseoModerno", sans-serif;
-                   font-optical-sizing: auto;
-                   font-weight: 500;
-                   font-style: italic;
-               }
+    font-family: "MuseoModerno", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: italic;
+}
 
 body {
 
     font-family: "MuseoModerno-ExtraLight", sans-serif;
+
 }
 
 
@@ -98,7 +99,7 @@ input[type="number"]:hover {
     padding: 50px;
     border: 0px solid #ccc;
     border-radius: 10px;
-
+    margin-right: 600px;
 
 }
 
@@ -146,8 +147,9 @@ h1 {
 }
 
 .about-bmi{
-width: 100vh;
-height: 100vw;
+    width: 100vh;
+    height: 100vw;
+    margin-right: 500px;
 
 }
 
@@ -155,8 +157,8 @@ li { font-size: 16px;}
 
 .about-bmi p {
     font-size: 1.5vw;
-width: 90%;
-font-family: "MuseoModerno-ExtraLight",sans-serif;
+    width: 90%;
+    font-family: "MuseoModerno-ExtraLight",sans-serif;
 }
 
 .bmi-chartt { align-items: left;}
@@ -168,18 +170,19 @@ font-family: "MuseoModerno-ExtraLight",sans-serif;
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    margin-left: 200px;
 }
 
 .bmi-chart-image {
     height: 500px;
-width: 500px;
+    width: 500px;
     background-image: url("bmi-chart.gif");
     background-size:cover;
     background-repeat: no-repeat;
 }
 
 .bmi-chart p {
-font-family: "MuseoModerno-ExtraLight";
+    font-family: "MuseoModerno-ExtraLight";
 }
 
 button {
