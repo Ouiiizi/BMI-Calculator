@@ -1,3 +1,4 @@
+
 function calculateBMI() {
     var weight = parseFloat(document.getElementById("weight").value);
     var heightFt = parseFloat(document.getElementById("heightFt").value);
@@ -31,28 +32,36 @@ function calculateBMI() {
         if (bmi < 18.5) {
             result += "You are underweight.";
             displayHealthyWeight(height, weight, gender);
+            document.getElementById("result").style.color = "blue";
         } else if (bmi >= 18.5 && bmi < 25) {
             result += "You have a normal weight.";
+            document.getElementById("result").style.color = "green";
         } else if (bmi >= 25 && bmi < 30) {
             result += "You are overweight.";
             displayHealthyWeight(height, weight, gender);
+            document.getElementById("result").style.color = "orange";
         } else {
             result += "You are obese.";
             displayHealthyWeight(height, weight, gender);
+            document.getElementById("result").style.color = "red";
         }
     } else if (gender == "female") {
         // BMI categories for females
         if (bmi < 18.5) {
             result += "You are underweight.";
             displayHealthyWeight(height, weight, gender);
+            document.getElementById("result").style.color = "blue";
         } else if (bmi >= 18.5 && bmi < 24) {
             result += "You have a normal weight.";
+            document.getElementById("result").style.color = "green";
         } else if (bmi >= 25 && bmi < 30) {
             result += "You are overweight.";
             displayHealthyWeight(height, weight, gender);
+            document.getElementById("result").style.color = "orange";
         } else if (bmi >= 30) {
             result += "You are obese.";
             displayHealthyWeight(height, weight, gender);
+            document.getElementById("result").style.color = "red";
         }
     }
 
