@@ -91,12 +91,13 @@ input[type="number"]:hover {
 
 #container {
     margin-top: 10px;
-    width: 70vw;
-    height: fit-content;
+    width: 100vh;
+    height: 100vw;
     margin: 0 auto;
     padding: 50px;
     border: 0px solid #ccc;
     border-radius: 10px;
+
 
 }
 
@@ -104,6 +105,8 @@ input[type="number"]:hover {
 form {
     margin-bottom: 20px;
     font-family: "MuseoModerno-ExtraLight", sans-serif;
+    height: 100vw;
+    width: 100vh;
 
 }
 
@@ -142,8 +145,9 @@ h1 {
 }
 
 .about-bmi{
-width: 100%;
-height: 100%;
+width: 100vh;
+height: 100vw;
+
 
 }
 
