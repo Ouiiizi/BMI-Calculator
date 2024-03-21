@@ -13,31 +13,35 @@
     <a href="#about-bmi" >About BMI</a>
     <a href="#bmi-chart">BMI Chart</a>
 </div>
+<div class="img_links">
+    <a href="https://discord.com/users/4263138430612930560"><img src="./svg-logos/discord-svgrepo-com.svg" class="img"></a>
+    <a href="https://github.com/Ouiiizi"><img class="img" src="./svg-logos/github-142-svgrepo-com.svg"></a>
+    <a href="https://www.instagram.com/__weezi/"><img class="img" src="./svg-logos/instagram-167-svgrepo-com.svg"></a>
+</div><br>
 
-<div class="content">
-    <div class="img_links">
-        <a href="https://discord.com/users/4263138430612930560"><img src="./svg-logos/discord-svgrepo-com.svg" class="img"></a>
-        <a href="https://github.com/Ouiiizi"><img class="img" src="./svg-logos/github-142-svgrepo-com.svg"></a>
-        <a href="https://www.instagram.com/__weezi/"><img class="img" src="./svg-logos/instagram-167-svgrepo-com.svg"></a>
-    </div><br>
+<br>
 
     <div class="bmi_calculator">
         <div id="container">
-            <h1>BMI Calculator</h1>
+
+
+            <h1 class="header">BMI Calculator</h1>
+            <div class="content">
+
 
 
             <form id="BMICalculator" name="BMICalculator">
                 <label for="weight" class="label" >Weight:</label>
-                <input type="number" id="weight" step="any">
+                <input type="number" id="weight" step="any" required>
                 <select id="weightUnit" class="label">
                     <option value="kg">kg</option>
                     <option value="lbs">lbs</option>
                 </select><br><br>
 
                 <label class="label" >Height:</label>
-                <input name="height "type="number" id="heightFt" placeholder="" step="any">
+                <input name="height "type="number" id="heightFt" placeholder="" step="any" required>
                 <input type="number" id="heightIn" placeholder="" step="any" style="margin-top:10px;">
-                <select id="heightUnit" onchange="toggleHeightInputs()">
+                <select id="heightUnit" onchange="toggleHeightInputs()" required>
                     <option value="ft">ft</option>
                     <option value="m">m</option>
                     <option value="cm">cm</option>
