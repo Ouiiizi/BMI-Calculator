@@ -1,4 +1,13 @@
-img {
+@font-face {
+    font-family: "Judson-Regular";
+    src:url("/Fonts/Judson-Regular.ttf");
+}
+
+@font-face {
+    font-family:"MuseoModerno-ExtraLight";
+    src:url("MuseoModerno-VariableFont_wght.ttf");
+}
+.img {
 
     height: 32px;
     width: 32px;
@@ -38,7 +47,7 @@ img {
     text-decoration: none;
     padding: 10px 20px;
     margin: 0 5px;
-    display: block; /* Ensure links take up the full width */
+    display: block;
 }
 
 .navbar a:hover {
@@ -57,11 +66,6 @@ img {
                    font-weight: 500;
                    font-style: italic;
                }
-
-
-.label {
-    font-family: "MuseoModerno-ExtraLight", sans-serif;
-}
 
 body {
 
@@ -82,25 +86,26 @@ input[type="number"]:hover {
     background-color: #e6e6e6;
 }
 
-/* CSS for container */
+
 #container {
     margin-top: 10px;
-    width: 400px; /* Set width of the container */
-    margin: 0 auto; /* Center the container horizontally */
-    padding: 50px; /* Add padding inside the container */
-    border: 1px solid #ccc; /* Add border to the container */
-    border-radius: 10px; /* Add border radius */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add shadow to the container */
+    width: 70vw;
+    height: fit-content;
+    margin: 0 auto;
+    padding: 50px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-/* CSS for form */
+
 form {
     margin-bottom: 20px;
     font-family: "MuseoModerno-ExtraLight", sans-serif;
 
 }
 
-/* CSS for button */
+
 button {
     padding: 10px 20px;
     background-color: #959369;
@@ -148,4 +153,36 @@ h1 {
     transition: background-color 0.3s ease;
 }
 
+.about-bmi{
+width: 100%;
+height: 100%;
 
+}
+
+.about-bmi p { font-size: 1.5vw;
+width: 90%;
+font-family: "MuseoModerno-ExtraLight",sans-serif;
+}
+
+.bmi-chartt { align-items: left;}
+
+.bmi-chart{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bmi-chart-image {
+    height: 500px;
+width: 500px;
+    background-image: url("bmi-chart.gif");
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+.bmi-chart p {
+font-family: "MuseoModerno-ExtraLight";
+}

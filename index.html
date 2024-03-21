@@ -6,21 +6,19 @@
     <link rel="stylesheet" href="main.css">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=MuseoModerno:ital,wght@1,500&display=swap');
-
-
     </style>
 </head>
 <div class="navbar">
     <a href="#">Home</a>
-    <a href="about_bmi.html">About BMI</a>
-    <a href="bmi_chart.html">BMI Chart</a>
+    <a href="#about-bmi" >About BMI</a>
+    <a href="#bmi-chart">BMI Chart</a>
 </div>
 
 <div class="content">
     <div class="img_links">
-        <a href="https://discord.com/users/4263138430612930560"><img src="./svg-logos/discord-svgrepo-com.svg"></a>
-        <a href="https://github.com/Ouiiizi"><img src="./svg-logos/github-142-svgrepo-com.svg"></a>
-        <a href="https://www.instagram.com/__weezi/"><img src="./svg-logos/instagram-167-svgrepo-com.svg"></a>
+        <a href="https://discord.com/users/4263138430612930560"><img src="./svg-logos/discord-svgrepo-com.svg" class="img"></a>
+        <a href="https://github.com/Ouiiizi"><img class="img" src="./svg-logos/github-142-svgrepo-com.svg"></a>
+        <a href="https://www.instagram.com/__weezi/"><img class="img" src="./svg-logos/instagram-167-svgrepo-com.svg"></a>
     </div><br>
 
     <div class="bmi_calculator">
@@ -55,16 +53,27 @@
 
                 <button type="button" onclick="calculateBMI()">Calculate BMI</button><br><br>
             </form>
-            <p id="result"></p>
-            <p id="genderResult"></p>
-            <p id="healthyWeight"></p>
+            <p class="result" id="result"></p>
+            <p class="healthyWeight" id="healthyWeight"></p>
 
             <hr>
-
-            <h1>ABOUT BMI</h1>
+            <div class="about-bmi" id="about-bmi">
+                <h1>ABOUT BMI</h1>
+                <p>BMI, or Body Mass Index, is a measure used to assess a person's body weight in relation to their height. It provides a numerical indicator of whether an individual is underweight, normal weight, overweight, or obese. However, BMI
+                    alone may not accurately reflect an individual's overall health as
+                    it does not account for factors like muscle mass or distribution of fat.</p>
+            </div>
             <hr>
-            <h1>BMI CHART</h1>
-        </div>
+            <h1 class="bmi-chartt" id="bmi-chart">BMI CHART</h1>
+            <div class="bmi-chart">
+                <div class="bmi-chart-image">
+
+                </div>
+            <p>The Given BMI Chart is the represenation of data and ranges of the Body Mass Index if he/she is healthy or not.</p>
+            </div>
+
+
+            </div>
     </div>
 </div>
     </center>
