@@ -1,5 +1,28 @@
+
+
+
+.museomoderno-ExtraLight {
+                   font-family: "MuseoModerno-ExtraLight", sans-serif;
+                   font-optical-sizing: auto;
+                   font-weight: 176;
+                   font-style: normal;
+               }
+
+.museomoderno-BoldxItalic {
+                   font-family: "MuseoModerno", sans-serif;
+                   font-optical-sizing: auto;
+                   font-weight: 500;
+                   font-style: italic;
+               }
+
+
+.label {
+    font-family: "MuseoModerno-ExtraLight", sans-serif;
+}
+
 body {
     margin-top: 10%;
+    font-family: "MuseoModerno-ExtraLight", sans-serif;
 }
 
 
@@ -32,7 +55,7 @@ input[type="number"]:hover {
 /* CSS for form */
 form {
     margin-bottom: 20px;
-
+    font-family: "MuseoModerno-ExtraLight", sans-serif;
 
 }
 
@@ -63,4 +86,14 @@ button:hover {
 .gender {
     padding:10px;
     margin-bottom: 5%;
+}
+
+
+h1 {
+    font-family: "MuseoModerno", sans-serif;
+
+}
+
+#label {
+    font-family: "MuseoModerno-ExtraLight", sans-serif;
 }
