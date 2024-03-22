@@ -17,8 +17,7 @@
 }
 
 .img_links {
-    text-align: right;
-    margin: 10px;
+    float: right;
 }
 
 .img_links a {
@@ -78,9 +77,9 @@ body {
 
 input[type="number"],
 select {
-    border: 1px solid #ccc; /* Add border to input fields */
-    padding: 5px; /* Add padding */
-    border-radius: 5px; /* Add border radius */
+    border: 1px solid #ccc;
+    padding: 5px;
+    border-radius: 5px;
     background-color:white;
     color:black;
 }
@@ -91,7 +90,6 @@ input[type="number"]:hover {
     background-color: #e6e6e6;
 }
 
-
 #container {
     margin-top: 10px;
     width: 400px;
@@ -99,10 +97,8 @@ input[type="number"]:hover {
     padding: 50px;
     border: 0px solid #ccc;
     border-radius: 10px;
-    margin-right: 600px;
-
+    margin-left: 150px;
 }
-
 
 form {
     margin-bottom: 20px;
@@ -146,14 +142,13 @@ h1 {
     transition: background-color 0.3s ease;
 }
 
-.about-bmi{
+.about-bmi {
     width: 100vh;
     height: 100vw;
-    margin-right: 500px;
 
 }
 
-li { font-size: 16px;}
+li { font-size: 17.5px;}
 
 .about-bmi p {
     font-size: 1.5vw;
@@ -162,17 +157,15 @@ li { font-size: 16px;}
 }
 
 .bmi-chartt { align-items: left;}
-
-.bmi-chart{
+.bmi-chart {
     width: 100%;
     height: fit-content;
     display: flex;
     justify-content: center;
     flex-direction: column;
-    align-items: center;
-    margin-left: 200px;
+    align-items: left;
+    margin-left: 50px;
 }
-
 .bmi-chart-image {
     height: 500px;
     width: 500px;
