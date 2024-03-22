@@ -1,3 +1,7 @@
+* {
+    scroll-behavior: smooth;
+}
+
 @font-face {
     font-family: "Judson-Regular";
     src:url("/Fonts/Judson-Regular.ttf");
